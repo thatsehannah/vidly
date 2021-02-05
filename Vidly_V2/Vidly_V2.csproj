@@ -211,6 +211,10 @@
     <Compile Include="Migrations\202102052344322_AddedCustomersBirthday1.Designer.cs">
       <DependentUpon>202102052344322_AddedCustomersBirthday1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102052348362_UpdatedExistingCustomerBirthday.cs" />
+    <Compile Include="Migrations\202102052348362_UpdatedExistingCustomerBirthday.Designer.cs">
+      <DependentUpon>202102052348362_UpdatedExistingCustomerBirthday.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102052344322_AddedCustomersBirthday1.resx">
       <DependentUpon>202102052344322_AddedCustomersBirthday1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102052348362_UpdatedExistingCustomerBirthday.resx">
+      <DependentUpon>202102052348362_UpdatedExistingCustomerBirthday.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
