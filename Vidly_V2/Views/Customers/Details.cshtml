@@ -9,7 +9,7 @@
     <li>Membership Type: @Model.MembershipType.Name</li>
     @if (Model.Birthday != null)
     {
-        <li>@Convert.ToDateTime(Model.Birthday)</li>
+        <li>Birthday: @Convert.ToDateTime(Model.Birthday).ToString("MM/dd/yyyy")</li>
     }
 </ul>
 
