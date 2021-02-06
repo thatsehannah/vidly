@@ -49,6 +49,13 @@ namespace Vidly_V2.Controllers
             return View(movies);
         }
 
+        public ActionResult Details(int id)
+        {
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
+
+            return View(movie);
+        }
+
         
     }
 }
