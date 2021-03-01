@@ -28,6 +28,7 @@ namespace Vidly_V2.Models
 
         [Required]
         [Display(Name = "Number In Stock")]
+        [Range(1,100, ErrorMessage = "The number in stock must be between 1 and 100")]
         public byte NumberInStock { get; set; }
     }
 }
